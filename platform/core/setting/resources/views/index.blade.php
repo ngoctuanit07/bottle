@@ -178,6 +178,12 @@
                         <input data-counter="120" type="text" class="next-input" name="seo_title" id="seo_title"
                                value="{{ setting('seo_title') }}">
                     </div>
+                    <div class="form-group">
+                        <label class="text-title-field"
+                               for="seo_title">{{ trans('core/setting::setting.general.seo_keywords') }}</label>
+                        <input data-counter="120" type="text" class="next-input" name="seo_keywords" id="seo_keywords"
+                               value="{{ setting('seo_keywords') }}">
+                    </div>
 
                     <div class="form-group">
                         <label class="text-title-field"
