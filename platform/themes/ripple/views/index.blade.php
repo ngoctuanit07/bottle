@@ -171,7 +171,3 @@
         </div>
     </section>
 @endif
-
-@if (function_exists('render_galleries'))
-    {!! render_galleries(8) !!}
-@endif

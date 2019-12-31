@@ -39,30 +39,6 @@
                             <a href="{{ setting('google_plus') }}" title="Google" class="hi-icon fa fa-youtube"></a>
                         </div>
                     </div>
-                    <div class="pull-right">
-                        @if (is_plugin_active('member'))
-                            <ul class="pull-left">
-                                @if (Auth::guard('member')->check())
-                                    <li><a href="{{ route('public.member.dashboard') }}" rel="nofollow"><i class="fa fa-user"></i> <span>{{ Auth::guard('member')->user()->getFullName() }}</span></a></li>
-                                    <li><a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" rel="nofollow"><i class="fa fa-sign-out"></i> {{ __('Logout') }}</a></li>
-                                @else
-                                    <li><a href="{{ route('public.member.login') }}" rel="nofollow"><i class="fa fa-sign-in"></i> {{ __('Login') }}</a></li>
-                                @endif
-                            </ul>
-                            @if (Auth::guard('member')->check())
-                                <form id="logout-form" action="{{ route('public.member.logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                            @endif
-                        @endif
-                        <div class="pull-left">
-                            <div class="pull-right">
-                                <div class="language-wrapper">
-                                    {!! apply_filters('language_switcher') !!}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </nav>
         </div>
@@ -99,7 +75,7 @@
         @if (is_plugin_active('blog'))
             <div class="super-search hide">
                 <form class="quick-search" action="{{ route('public.search') }}">
-                    <input type="text" name="q" placeholder="{{ __('Type to search...') }}" class="form-control search-input" autocomplete="off">
+                    <input type="text" name="q" placeholder="{{ __('Nhập tên bài viết cần tìm...') }}" class="form-control search-input" autocomplete="off">
                     <span class="close-search">&times;</span>
                 </form>
                 <div class="search-result"></div>

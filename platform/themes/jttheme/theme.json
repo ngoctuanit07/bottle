@@ -1,0 +1,14 @@
+{
+    "name": "Jttheme",
+    "description": "Jttheme is default theme for Jt Cart version v1.0",
+    "author": "John Nguyen",
+    "version": "1.5",
+    "required_plugins": [
+        "blog",
+        "contact",
+        "gallery",
+        "language",
+        "block",
+        "member"
+    ]
+}

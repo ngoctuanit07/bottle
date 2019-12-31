@@ -1,0 +1,20 @@
+{
+  "name": "botble/jttheme",
+  "type": "Jttheme",
+  "description": "Default theme for JT CMS",
+  "homepage": "https://johnnguyenteam.com",
+  "authors": [
+    {
+      "name": "John Nguyen",
+      "homepage": "https://johnnguyenteam.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Theme\\Jttheme\\": "src/"
+    }
+  }
+}

@@ -8,13 +8,13 @@
                         <header class="person-info">
                             <div class="person-info__thumbnail"><a href="https://botble.com"><img src="{{ Theme::asset()->url('images/men.jpg') }}" alt="Botble technologies"></a></div>
                             <div class="person-info__content">
-                                <h3 class="person-info__title">{{ __('Botble Technologies') }}</h3>
-                                <p class="person-info__description">{{ __('A young team in Vietnam') }}</p>
+                                <h3 class="person-info__title">{{ __('John Nguyen Team') }}</h3>
+                                <p class="person-info__description">{{ __('John Nguyen team outsourcing team từ việt nam VietNam') }}</p>
                             </div>
                         </header>
                         <div class="person-detail">
-                            <p><i class="ion-home"></i>{{ __('Go Vap District, HCM City, Vietnam') }}</p>
-                            <p><i class="ion-earth"></i><a href="https://botble.com">https://botble.com</a></p>
+                            <p><i class="ion-home"></i>{{ __('Thuan An District, Binh Duong City, Vietnam') }}</p>
+                            <p><i class="ion-earth"></i><a href="https://nguyenngoctuan.top">https://nguyenngoctuan.topm</a></p>
                             <p><i class="ion-email"></i><a href="mailto:{{ setting('email_support') }}">{{ setting('email_support') }}</a></p>
                         </div>
                     </div>
