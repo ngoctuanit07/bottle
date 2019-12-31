@@ -950,8 +950,8 @@ class Theme implements ThemeContract
 
         $content->withHeaders([
             'Author'      => 'Sang Nguyen (sangnguyenplus@gmail.com)',
-            'Author-Team' => 'https://botble.com',
-            'CMS'         => 'Botble CMS',
+            'Author-Team' => 'https://johnnguyenteam.com',
+            'CMS'         => 'JT Cart',
             'CMS-Version' => get_cms_version(),
         ]);
 

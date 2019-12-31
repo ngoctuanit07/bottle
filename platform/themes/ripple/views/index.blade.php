@@ -57,7 +57,7 @@
                     <div class="page-content">
                         <div class="post-group post-group--single">
                             <div class="post-group__header">
-                                <h3 class="post-group__title">{{ __("What's new ?") }}</h3>
+                                <h3 class="post-group__title">{{ __("Bài viết mới nhất") }}</h3>
                             </div>
                             <div class="post-group__content">
                                 <div class="row">
@@ -119,7 +119,7 @@
                     <div class="page-content">
                         <div class="post-group post-group--single">
                             <div class="post-group__header">
-                                <h3 class="post-group__title">{{ __('Best for you') }}</h3>
+                                <h3 class="post-group__title">{{ __('Bài viết dành cho bạn') }}</h3>
                             </div>
                             <div class="post-group__content">
                                 <div class="row">
