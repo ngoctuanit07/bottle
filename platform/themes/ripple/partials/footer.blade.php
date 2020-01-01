@@ -67,7 +67,7 @@
     'use strict';
     window.fbAsyncInit = function() {
         FB.init({
-            appId            : '1752152358341085',
+            appId            : '1238284409696257',
             autoLogAppEvents : true,
             xfbml            : true,
             version          : 'v3.2'
@@ -85,7 +85,7 @@
 
 <div class="fb-customerchat"
      attribution=setup_tool
-     page_id="157007981299897"
+     page_id="110076667177163"
      theme_color="#0084ff">
 </div>
 
