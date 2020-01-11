@@ -164,6 +164,15 @@ class SeoHelper implements SeoHelperContract
         return $this;
     }
 
+    public function setKeyword($keyword)
+    {
+        $this->meta()->setKeyword($keyword);
+       // $this->openGraph()->setKeyword($keyword);
+       // $this->twitter()->setKeyword($keyword);
+
+        return $this;
+    }
+
     /**
      * Render all seo tags.
      *

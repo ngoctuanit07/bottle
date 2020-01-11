@@ -1,8 +1,8 @@
 <?php
 
 namespace Botble\SeoHelper\Contracts;
-
 use Botble\SeoHelper\Contracts\Entities\DescriptionContract;
+use Botble\SeoHelper\Contracts\Entities\KeywordContract;
 use Botble\SeoHelper\Contracts\Entities\MiscTagsContract;
 use Botble\SeoHelper\Contracts\Entities\TitleContract;
 use Botble\SeoHelper\Contracts\Entities\WebmastersContract;
@@ -29,6 +29,7 @@ interface SeoMetaContract extends RenderableContract
      * @author ARCANEDEV
      */
     public function description(DescriptionContract $description);
+    public function keyword(KeywordContract $keyword);
 
     /**
      * Set the MiscTags instance.
@@ -71,6 +72,7 @@ interface SeoMetaContract extends RenderableContract
      * @author ARCANEDEV
      */
     public function setDescription($content);
+    public function setKeyword($content);
 
     /**
      * Add a webmaster tool site verifier.

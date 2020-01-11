@@ -18,6 +18,7 @@
         body {font-family: '{{ theme_option('primary_font', 'Roboto') }}' sans-serif !important;}
     </style>
 
+
 {!! Theme::header() !!}
 
 <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
@@ -45,6 +46,7 @@
 <!--[if IE 9]>
 <body class="ie9 lt-ie10"><![endif]-->
 <body>
+<h1 title="John Nguyen Team" style="display: none;">John Nguyen Team</h1>
 <header class="header" id="header">
     <div class="header-wrap">
         <nav class="nav-top">

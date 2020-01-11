@@ -45,6 +45,7 @@ class HookServiceProvider extends ServiceProvider
         $meta = [
             'seo_title'       => null,
             'seo_description' => null,
+            'seo_keywords' => null,
         ];
 
         $args = func_get_args();
@@ -76,6 +77,9 @@ class HookServiceProvider extends ServiceProvider
 
             if (!empty($meta['seo_description'])) {
                 SeoHelper::setDescription($meta['seo_description']);
+            }
+            if (!empty($meta['seo_keywords'])) {
+                SeoHelper::setKeyword($meta['seo_keywords']);
             }
         }
     }

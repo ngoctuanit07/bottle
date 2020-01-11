@@ -79,4 +79,5 @@ interface SeoHelperContract extends RenderableContract
      * @author ARCANEDEV
      */
     public function setDescription($description);
+    public function setKeyword($keyword);
 }

@@ -949,7 +949,7 @@ class Theme implements ThemeContract
         }
 
         $content->withHeaders([
-            'Author'      => 'Sang Nguyen (sangnguyenplus@gmail.com)',
+            'Author'      => 'John Nguyen (tuannguyen0719@gmail.com)',
             'Author-Team' => 'https://johnnguyenteam.com',
             'CMS'         => 'JT Cart',
             'CMS-Version' => get_cms_version(),

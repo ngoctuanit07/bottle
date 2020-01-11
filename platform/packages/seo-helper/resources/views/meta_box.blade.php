@@ -13,6 +13,9 @@
         <div class="page-description-seo ws-nm">
             {{ strip_tags($meta['seo_description'] ?? (!empty($object) ? $object->description : (!empty($object) && $object->content ? Str::limit($object->content, 250) : old('seo_meta.seo_description')))) }}
         </div>
+        <div class="page-keyword-seo ws-nm">
+            {{ strip_tags($meta['seo_keywords'] ?? (!empty($object) ? $object->keyword : (!empty($object) && $object->content ? Str::limit($object->content, 250) : old('seo_meta.seo_keywords')))) }}
+        </div>
     </div>
 </div>
 
@@ -26,5 +29,9 @@
     <div class="form-group">
         <label for="seo_description" class="control-label">{{ trans('packages/seo-helper::seo-helper.seo_description') }}</label>
         {!! Form::textarea('seo_meta[seo_description]', strip_tags($meta['seo_description']) ?? old('seo_meta.seo_description'), ['class' => 'form-control', 'rows' => 3, 'id' => 'seo_description', 'placeholder' => trans('packages/seo-helper::seo-helper.seo_description'), 'data-counter' => 155]) !!}
+    </div>
+    <div class="form-group">
+        <label for="seo_keywords" class="control-label">{{ trans('packages/seo-helper::seo-helper.seo_keywords') }}</label>
+        {!! Form::textarea('seo_meta[seo_keywords]', strip_tags($meta['seo_keywords']) ?? old('seo_meta.seo_keywords'), ['class' => 'form-control', 'rows' => 3, 'id' => 'seo_keywords', 'placeholder' => trans('packages/seo-helper::seo-helper.seo_keywords'), 'data-counter' => 155]) !!}
     </div>
 </div>

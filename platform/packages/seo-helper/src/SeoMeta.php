@@ -4,6 +4,7 @@ namespace Botble\SeoHelper;
 
 use Botble\SeoHelper\Contracts\Entities\AnalyticsContract;
 use Botble\SeoHelper\Contracts\Entities\DescriptionContract;
+use Botble\SeoHelper\Contracts\Entities\KeywordContract;
 use Botble\SeoHelper\Contracts\Entities\MiscTagsContract;
 use Botble\SeoHelper\Contracts\Entities\TitleContract;
 use Botble\SeoHelper\Contracts\Entities\WebmastersContract;
@@ -25,6 +26,12 @@ class SeoMeta implements SeoMetaContract
      * @var \Botble\SeoHelper\Contracts\Entities\DescriptionContract
      */
     protected $description;
+    /**
+     * The Description instance.
+     *
+     * @var \Botble\SeoHelper\Contracts\Entities\KeywordContract
+     */
+    protected $keyword;
 
     /**
      * The MiscTags instance.
@@ -61,6 +68,7 @@ class SeoMeta implements SeoMetaContract
     {
         $this->title(new Entities\Title());
         $this->description(new Entities\Description());
+        $this->keyword(new Entities\Keyword());
         $this->misc(new Entities\MiscTags());
         $this->webmasters(new Entities\Webmasters());
         $this->analytics(new Entities\Analytics());
@@ -92,6 +100,14 @@ class SeoMeta implements SeoMetaContract
     public function description(DescriptionContract $description)
     {
         $this->description = $description;
+
+        return $this;
+    }
+
+    public function keyword(KeywordContract $keyword)
+    {
+
+        $this->keyword = $keyword;
 
         return $this;
     }
@@ -190,6 +206,13 @@ class SeoMeta implements SeoMetaContract
     public function setDescription($content)
     {
         $this->description->set($content);
+
+        return $this;
+    }
+    public function setKeyword($content)
+    {
+
+        $this->keyword->set($content);
 
         return $this;
     }
