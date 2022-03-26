@@ -262,11 +262,11 @@
         },
         {
             "name": "botble/api",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/api",
-                "reference": "602f3ed45b672fa6626fd6079f8e9519fa47cd30"
+                "reference": "6b2c4120c997cbe22c0c8cda5d621b5e12ec9f0d"
             },
             "require": {
                 "barryvdh/laravel-cors": "^0.11.3",
@@ -292,7 +292,10 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "API package for Botble CMS application"
+            "description": "API package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/assets",
@@ -354,11 +357,11 @@
         },
         {
             "name": "botble/menu",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/menu",
-                "reference": "1d70ee1f1cf539c0b725fba5490db6a2577cb504"
+                "reference": "2588f9ca017abc0c7ad89c33b8189baad5b115f0"
             },
             "type": "package",
             "extra": {
@@ -379,15 +382,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Menu package for Botble CMS application"
+            "description": "Menu package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/optimize",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/optimize",
-                "reference": "0078316d80fe5b02136d467d1cfc85bd7b741eca"
+                "reference": "991d16c94997c4dc9ae2f528d83ff055f9587f2c"
             },
             "require": {
                 "silber/page-cache": "^1.0"
@@ -411,15 +417,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Optimize page speed package for Botble CMS application"
+            "description": "Optimize page speed package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/page",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/page",
-                "reference": "ed03272b2b269ede5cee997c98c1a88c6367f835"
+                "reference": "d745ac43c092734f6e258600befe2d8e08cab341"
             },
             "type": "package",
             "extra": {
@@ -440,15 +449,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Page package for Botble CMS application"
+            "description": "Page package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/platform",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/core",
-                "reference": "3573e258caa5f75f1c54c47c388635e79d0f8e84"
+                "reference": "05de94f50d1626ac852c5a1f6d080ef238083daa"
             },
             "require": {
                 "barryvdh/laravel-dompdf": "^0.8.2",
@@ -538,15 +550,18 @@
             "support": {
                 "issues": "https://github.com/botble/issues",
                 "document": "https://docs.botble.com"
+            },
+            "transport-options": {
+                "relative": true
             }
         },
         {
             "name": "botble/revision",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/revision",
-                "reference": "d95ff23e797e983b0327bd1076bd0e3749e25f3d"
+                "reference": "1783b11dfcf16baf447668084608b3a8145037a1"
             },
             "type": "package",
             "extra": {
@@ -567,15 +582,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Revision package for Botble CMS application"
+            "description": "Revision package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/seo-helper",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/seo-helper",
-                "reference": "dcf32fead1dee8791d991e30cdacff5b93810946"
+                "reference": "cf3781eca5174057630f040613ef04b69d044bd3"
             },
             "type": "package",
             "extra": {
@@ -595,19 +613,22 @@
             },
             "authors": [
                 {
-                    "name": "Sang Nguyen",
-                    "email": "sangnguyenplus@gmail.com"
+                    "name": "John Nguyen",
+                    "email": "johnnguyenteam@gmail.com"
                 }
             ],
-            "description": "SEO helper package for Botble CMS application"
+            "description": "SEO helper package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/shortcode",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/shortcode",
-                "reference": "354fb720bef18fba643479a931e1f24f7757368c"
+                "reference": "e21b2b40532a024b41f2b2b1c1a3fcd3a65c7061"
             },
             "type": "package",
             "extra": {
@@ -628,15 +649,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Shortcode package for Botble CMS application"
+            "description": "Shortcode package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/slug",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/slug",
-                "reference": "1d6e85cbab706e89d93b269163ffdff531b9c39d"
+                "reference": "eeaf9a78ff4a99c895ea96e540d9f710cd840c44"
             },
             "type": "package",
             "extra": {
@@ -657,15 +681,18 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Slug/Permalink for Botble CMS application"
+            "description": "Slug/Permalink for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/theme",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/theme",
-                "reference": "5531d52b8a83c4c29ed09b966fd9d3c51295aa6f"
+                "reference": "818b559ad32e03e7789986240b5f4c938579cdde"
             },
             "type": "package",
             "extra": {
@@ -686,15 +713,18 @@
                     "email": "tuannguyen0719@gmail.com"
                 }
             ],
-            "description": "Theme package for Botble CMS application"
+            "description": "Theme package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "botble/widget",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/widget",
-                "reference": "89b0ba9574bbe5d2bb12c73260e48c138c343a63"
+                "reference": "4ac7860a9851c13de126e973fd378dcea5c0c08d"
             },
             "type": "package",
             "extra": {
@@ -715,7 +745,10 @@
                     "email": "sangnguyenplus@gmail.com"
                 }
             ],
-            "description": "Widget package for Botble CMS application"
+            "description": "Widget package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "chumper/zipper",
@@ -5635,29 +5668,33 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "8.3.0",
+            "version": "8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
-                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f"
+                "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
-                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30",
+                "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "ext-iconv": "*",
+                "php": ">=5.6.20"
             },
             "require-dev": {
                 "codacy/coverage": "^1.4",
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "suggest": {
+                "ext-mbstring": "for parsing UTF-8 CSS"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Sabberworm\\CSS": "lib/"
+                "psr-4": {
+                    "Sabberworm\\CSS\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5670,13 +5707,17 @@
                 }
             ],
             "description": "Parser for CSS Files written in PHP",
-            "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+            "homepage": "https://www.sabberworm.com/blog/2010/6/10/php-css-parser",
             "keywords": [
                 "css",
                 "parser",
                 "stylesheet"
             ],
-            "time": "2019-02-22T07:42:52+00:00"
+            "support": {
+                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
+                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.4.0"
+            },
+            "time": "2021-12-11T13:40:54+00:00"
         },
         {
             "name": "silber/page-cache",
@@ -8621,11 +8662,11 @@
         },
         {
             "name": "botble/dev-tool",
-            "version": "dev-master",
+            "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./platform/packages/dev-tool",
-                "reference": "c8f379cd5f23c09d6e71797377238cb5b1a08954"
+                "reference": "b0f0a9a7da872fc505cba558b715e2f39ee3cd86"
             },
             "require": {
                 "barryvdh/laravel-debugbar": "^3.2",
@@ -8646,7 +8687,10 @@
                     "Botble\\DevTool\\": "src"
                 }
             },
-            "description": "Dev tools package for Botble CMS application"
+            "description": "Dev tools package for Botble CMS application",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "composer/ca-bundle",
@@ -11034,5 +11078,6 @@
         "ext-json": "*",
         "ext-zip": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
